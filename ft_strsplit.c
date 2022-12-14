@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strsplit.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: msoulaim <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/16 14:24:09 by msoulaim          #+#    #+#             */
-/*   Updated: 2019/04/17 19:00:00 by msoulaim         ###   ########.fr       */
+/*   Updated: 2022/12/14 11:23:25 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,8 @@ static	int		nbchar(char const *str, char c)
 static	int		mytstr(char **tstr, char const *s, char c)
 {
 	int		i;
-	int		k;
 	int		wordcount;
 
-	k = 0;
 	i = 0;
 	wordcount = ft_nbrstr(s, c);
 	while (wordcount-- && *s)
